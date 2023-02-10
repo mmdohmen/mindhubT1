@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 1px solid white;
+    box-sizing: border-box;      /* limita las dimensiones 'width' & 'height' a los valores definidos */
+}
+
+header {
+    max-height: 20vh;
+    border: 1px solid black;
+    background-color: lightgrey;
+}
+
+header img {
+    height: 18vh;
+}
+
+nav {
+    background-color: lightgreen;
+    padding: 9px;
+}
+
+nav a {
+    padding: 6px;
+}
+
+main {
+    border: 1px solid black;
+    padding-top: 9px;
+}
+
+h1 {
+    display: inline-block;
+    margin-bottom: 9px;
+    vertical-align: top;
+}
+
+section {
+    display: inline-block;
+    border: 1px dashed grey;
+    width: 45vw;
+    vertical-align: top;
+}
+
+h2 {
+    background-color: lightslategray;
+    color: white;
+    vertical-align: top;
+}
+
+section img {
+    width: 45vw;
+}
+
+a {
+    color: blue;
+    text-decoration: none;
+}
+
+a[href="./about.html"] {
+    color: green;
+}
