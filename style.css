@@ -46,7 +46,8 @@ section {
     display: inline-block;
     /* border: 1px dashed gray; */
     vertical-align: top;
-    margin-left: 25px;
+    margin-left: 6px;
+    margin-right: 3px;
 }
 
 section img {
@@ -62,3 +63,50 @@ section a {
     font-weight: bold;
 }
 
+a[href="mailto:mdhl@chihockey.or"], a[href="mailto:michael.randall@chihockey.org"] {
+    font-size: 1.2em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+table {
+    width: 100%;
+}
+
+.september {
+    /* background-color: lightgreen; */
+    width: 25%;
+}
+
+.times {
+    width: 12%;
+}
+
+table>caption {
+    text-align:left;
+}
+
+th,td {
+    /* border: 1px dashed grey; */
+    padding: 9px;
+    text-align: center;
+}
+
+.p_inline {
+    display:flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+li {
+    list-style-position: inside;
+}
+
+li>ol {
+    list-style-type: lower-latin;
+    margin-left: 1em;
+}
+
+ul {
+    list-style-type: circle;
+    margin-left: 1em;
+}
