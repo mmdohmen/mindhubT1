@@ -50,13 +50,24 @@ section {
     margin-right: 3px;
 }
 
-section img {
-    width: 12vw;
+section img,iframe {
+    width: 25vw;
+    height: 34vh;
+    display: flex;
+    align-items: center;
+}
+
+#logo {
+    width: 9vw;
+    height: auto;
+    position: relative;
+    left: 9vw;
 }
 
 section article {
-    width: 80vw;
+    width: 70vw;
 }
+
 
 section a {
     text-decoration: none;
@@ -74,7 +85,7 @@ table {
 
 .september {
     /* background-color: lightgreen; */
-    width: 25%;
+    width: 16%;
 }
 
 .times {
@@ -86,8 +97,7 @@ table>caption {
 }
 
 th,td {
-    /* border: 1px dashed grey; */
-    padding: 9px;
+    /*border: 1px dashed grey; */  
     text-align: center;
 }
 
@@ -110,3 +120,10 @@ ul {
     list-style-type: circle;
     margin-left: 1em;
 }
+
+form td {
+    width: 35%;
+    text-align: left;
+}
+
+input[type="text"]{width: 52%}
