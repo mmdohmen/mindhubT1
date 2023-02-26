@@ -36,57 +36,57 @@
                 <form action="./show_data.html" method="get" target="_blank">
                     <table>
                         <tr>
-                            <td><label for="1stName"> Player's First Name: <input type="text" name="1stName" id=""></label></td>
-                            <td><label for="LastName">Last Name: <input type="text" name="LastName" id=""></label></td>
+                            <td><label for="1stName"> Player's First Name: <input type="text" name="1stName" id="1stName"></label></td>
+                            <td><label for="LastName">Last Name: <input type="text" name="LastName" id="LastName"></label></td>
                         </tr>
                         <tr>
-                            <td colspan="2"><label for="adress">Street Adress: <input type="text" name="adress" id=""></label></td>
+                            <td colspan="2"><label for="adress">Street Adress: <input type="text" name="adress" id="adress"></label></td>
                         </tr>
                         <tr>
-                            <td><label for="city">City: <input type="text" name="city" id=""></label></td>
-                            <td><label for="code">Zip Code: <input type="text" name="code" id=""></label></td>
+                            <td><label for="city">City: <input type="text" name="city" id="city"></label></td>
+                            <td><label for="code">Zip Code: <input type="text" name="code" id="code"></label></td>
                         </tr>
                         <tr>
                             <td><label for="birth">Birth Date (dd/mm/yyyy): <input type="date" name="birth"
-                                        id=""></label></td>
-                            <td><label for="gender"> Gender: &nbsp;
-                                    <input type="radio" name="gender" id="" value="female">Female &nbsp;
-                                    <input type="radio" name="gender" id="" value="male"> Male
-                                </label>
+                                        id="birth"></label></td>
+                            <td><!-- <label for="gender"> --> Gender: &nbsp;
+                                    <input type="radio" name="gender" id="female" value="female">Female &nbsp;
+                                    <input type="radio" name="gender" id="male" value="male"> Male
+                                <!-- </label> -->
                             </td>
                         </tr>
                         <tr>
-                            <td colspan="2"><label for="grade"> Grade: &nbsp;
-                                    <input type="radio" name="grade" id="" value="ps">Pre-School &nbsp;
-                                    <input type="radio" name="grade" id="" value="1"> 1st &nbsp;
-                                    <input type="radio" name="grade" id="" value="2"> 2nd &nbsp;
-                                    <input type="radio" name="grade" id="" value="3"> 3rd &nbsp;
-                                    <input type="radio" name="grade" id="" value="4"> 4th &nbsp;
-                                    <input type="radio" name="grade" id="" value="5"> 5th &nbsp;
-                                </label>
+                            <td colspan="2"><!--<label for="grade"> --> Grade: &nbsp;
+                                    <input type="radio" name="grade" id="gradeps" value="ps">Pre-School &nbsp;
+                                    <input type="radio" name="grade" id="grade1" value="1"> 1st &nbsp;
+                                    <input type="radio" name="grade" id="grade2" value="2"> 2nd &nbsp;
+                                    <input type="radio" name="grade" id="grade3" value="3"> 3rd &nbsp;
+                                    <input type="radio" name="grade" id="grade4" value="4"> 4th &nbsp;
+                                    <input type="radio" name="grade" id="grade5" value="5"> 5th &nbsp;
+                                <!-- </label> -->
                             </td>
                         </tr>
                     </table>
                     <br>
 
                     <h3>Which elementary school do you live near ?</h3>
-                    <label for="school">
+                    <!-- <label for="school"> -->
                         <h4>Closest School</h4>
                         <table>
                             <tr>
-                                <td><input type="radio" name="school" id="" value="AJK">AJ Katzenmaier</td>
-                                <td><input type="radio" name="school" id="" value="MPH">Marjorie P Hart</td>
+                                <td><input type="radio" name="school" id="AJK" value="AJK">AJ Katzenmaier</td>
+                                <td><input type="radio" name="school" id="MPH" value="MPH">Marjorie P Hart</td>
                             </tr>
                             <tr>
-                                <td><input type="radio" name="school" id="" value="G">Greenbay</td>
-                                <td><input type="radio" name="school" id="" value="NE">North Elementary</td>
+                                <td><input type="radio" name="school" id="G" value="G">Greenbay</td>
+                                <td><input type="radio" name="school" id="NE" value="NE">North Elementary</td>
                             </tr>
                             <tr>
-                                <td><input type="radio" name="school" id="" value="HAY">Howard A Yeager</td>
-                                <td><input type="radio" name="school" id="" value="SE">South Elementary</td>
+                                <td><input type="radio" name="school" id="HAY" value="HAY">Howard A Yeager</td>
+                                <td><input type="radio" name="school" id="SE" value="SE">South Elementary</td>
                             </tr>
                         </table>
-                    </label>
+                    <!-- </label> -->
                     <br>
 
                     <h3>What position(s) do you normally play ? (check all that apply) </h3>
@@ -106,26 +106,26 @@
                     </table>
                     <br>
 
-                    <label for="size">
+                    <!-- <label for="size"> -->
                         <h3>Uniform Size </h3>
                         <table>
 
                             <tr>
-                                <td><input type="radio" name="size" id="" value="YS">Youth Small</td>
-                                <td><input type="radio" name="size" id="" value="M">Medium</td>
+                                <td><input type="radio" name="size" id="sizeYS" value="YS">Youth Small</td>
+                                <td><input type="radio" name="size" id="sizeM" value="M">Medium</td>
                             </tr>
                             <tr>
-                                <td><input type="radio" name="size" id="" value="YM">Youth Medium</td>
-                                <td><input type="radio" name="size" id="" value="L">Large</td>
+                                <td><input type="radio" name="size" id="sizeYM" value="YM">Youth Medium</td>
+                                <td><input type="radio" name="size" id="sizeL" value="L">Large</td>
                             </tr>
                             <tr>
-                                <td><input type="radio" name="size" id="" value="YL">Youth Large</td>
-                                <td><input type="radio" name="size" id="" value="XL">Extra-Large</td>
+                                <td><input type="radio" name="size" id="sizeYL" value="YL">Youth Large</td>
+                                <td><input type="radio" name="size" id="sizeXL" value="XL">Extra-Large</td>
                             </tr>
                             <tr>
-                                <td><input type="radio" name="size" id="" value="S">Small</td>
+                                <td><input type="radio" name="size" id="sizeS" value="S">Small</td>
                             </tr>
-                    </label>
+                    <!-- </label> -->
                     </table>
                     <br><br>
 
@@ -136,8 +136,8 @@
 
                     <br>
 
-                    <label for="signature">Parent/Guardian Siganture: <input type="text" name="signature" id="" required></label><br>
-                    <label for="date">Date: <input type="date" name="date" id="" autocomplete="on"></label><br>
+                    <label for="signature">Parent/Guardian Siganture: <input type="text" name="signature" id="signature" required></label><br>
+                    <label for="date">Date: <input type="date" name="date" id="date" autocomplete="on"></label><br>
 
                     <br>
 
